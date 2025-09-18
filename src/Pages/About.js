@@ -6,6 +6,15 @@ export default function About() {
 
 
     <section class="about-header">
+        <div class="mission">
+                <div class="business">
+                    <h1>About</h1>
+                    <div class="link">
+                    <a href="" class="link-1">Home</a>
+                    <a href="" class="link-2"> > About us</a>
+                    </div>
+                </div>
+                </div>
         <div class="header-line">
             <h1>Your strategic partner for<br/> business success</h1>
             <h2>with years of experience across various industries, our<br/> dedicated team is commited to driving goals <br/>and committed to driving growth and operational<br/> excellence</h2>
