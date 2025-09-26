@@ -1,9 +1,18 @@
+import { hover } from "@testing-library/user-event/dist/hover";
 import React from "react";
-
+import 'boxicons'
 const Footer = () => {
     return (
         <footer style={styles.footer}>
             <div style={styles.footerContainer}>
+                <div style={styles.footerHeadings0}>
+                    <h1 style={styles.logo}>Contact Us</h1>
+                    <p style={styles.navItem1}>Email: Samkorede007@gmail.com</p>
+                    <p style={styles.navItem1}>Phone Number: +2349091433193</p>
+                    <p style={styles.navItem1}>No. 1 Prevail Avenue, Paseda Tipper, Ibadan, Nigeria.</p>
+                    
+                </div>
+
                 <div style={styles.footerHeadings1}>
                     <h1 style={styles.logo}>About Us</h1>
                     <nav>
@@ -17,7 +26,7 @@ const Footer = () => {
                 </div>
 
                 <div style={styles.footerHeadings2}>
-                    <h1 style={styles.logo}>Contact Us</h1>
+                    <h1 style={styles.logo}>Company</h1>
                     <nav>
                         <ul style={styles.navList}>
                             <li><a href="/" style={styles.navItem}>Jobs</a></li>
@@ -48,31 +57,51 @@ const Footer = () => {
 const styles = {
     footer: {
         alignItems: "center",
-        padding: "10px 200px",
-        backgroundColor: "black",
-        color: "white",
+        padding: "50px 50px",
+        backgroundColor: "rgb(169, 240, 98)",
+        color: "black",
+        border: "2px solid rgb(169, 240, 98)"
         
     },
 
     footerContainer: {
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))",
-        gap: "100px"
+        gridTemplateColumns: "25% 25% 25% 25% 25%",
+        gap: "10px"
     },
 
     footerHeadings: {
         
-        padding: "20px",
+        padding: "0px",
         
         
     },
+
     navItem: {
         textDecoration: "none",
-        color: "white"
+        color: "black",
+        paddingTop: "40px",
+        textTransform: "capitalize"
+        
+        
     },
+
+
+
+    
     navList: {
         listStyle: "none",
         
+        
+        
+    },
+
+    logo: {
+        color: "white"
+    },
+
+    navItem1: {
+        fontWeight: "600"
     }
 };
 export default Footer;

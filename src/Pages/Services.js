@@ -1,10 +1,10 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import 'boxicons'
 export default function Services() {
     return (
         <section class="services">
 
-            <section class="mission">
+            <div class="mission">
                 <div class="business">
                     <h1>Services</h1>
                     <div class="link">
@@ -12,7 +12,7 @@ export default function Services() {
                     <a href="" class="link-2"> > Services</a>
                     </div>
                 </div>
-            </section>
+            </div>
 
         
             
@@ -25,7 +25,7 @@ export default function Services() {
 
                 <div class="makescart">
                     <div class="shield">
-                        <box-icon class="check" name='check-shield' size="lg" size="cssSize" color="rgb(169, 240, 98)" type="solid"></box-icon>
+                        <box-icon class="check" name='check-shield' size="cssSize" color="rgb(169, 240, 98)" type="solid"></box-icon>
                         <h3>Cyber Security</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit. Nullam euismod, nisl vel ultricies lacinia, nunc<br/> nisl aliquam nisl,nisl vel ultricies lacinia</p>
                     </div>

@@ -39,7 +39,7 @@ export default function Home(){
 
                 <div class="shop">
                     <div class="shop-icon">
-                    <box-icon class="card-icon" type="solid" name="package" color="rgb(169, 240, 98)" size="lg"></box-icon>
+                    <box-icon class="card-icon" type="solid" name="alarm" color="rgb(169, 240, 98)" size="lg"></box-icon>
                     </div>
                     <div class="shop-text">
                     <h6>24x7 Support</h6>
@@ -66,6 +66,7 @@ export default function Home(){
                             <p>Jacket and Coats</p>
                             <p>Knit</p>
                             <p>Sarees</p>
+                            <button class="collect-btn">shop all collections ➞</button>
                         </div>
                         </div>
                     </div>
@@ -104,6 +105,7 @@ export default function Home(){
                                 <p>Watches</p>
                                 <p>Hat</p>
                                 <p></p>
+                                
                             </div>
                             </div>
                          </div>
@@ -130,163 +132,144 @@ export default function Home(){
 
                 </div>
             
-             <div class="outfits">
-                        <div class="tendy">
-                            <img src="/outfit1.jfif" alt=""></img>
-                            <div class="form">
-                                <div class="heart">
-                                <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="lock-open">
-                                <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="film">
-                                <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
-                                </div>
-                            </div>
-                            <div class="off">
-                                <h6>50% off</h6>
-                            </div>
-                            <div class="ratings">
-                            <div class="ratings-icon">
-                          
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star-half" color="orange" size="sm"></box-icon>
-            
-                            </div>
-                                <p>Coat</p>
-                                <h6>4.9</h6>
-                          </div>
-                        
+         <div class="outfits">
+  <div class="tendy">
+    <img src="/outfit1.jfif" alt="" />
+    <div class="form">
+      <div class="heart">
+        <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
+      </div>
+      <div class="lock-open">
+        <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
+      </div>
+      <div class="film">
+        <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
+      </div>
+    </div>
+    <div class="off">
+      <h6>50% off</h6>
+    </div>
+    <div class="ratings">
+      <div class="ratings-icon">
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star-half" color="orange" size="sm"></box-icon>
+      </div>
+      <p>Shade</p>
+      <h6>4.9</h6>
+    </div>
+    <div class="pricing">
+      <p>Black Glasses</p>
+      <h5>$75:00</h5>
+      <h6>$150:00</h6>
+    </div>
+  </div>
 
-                            <div class="pricing">
-                                <p>Tendy brown coat</p>
-                                <h5>$75:00</h5>
-                                <h6>$150:00</h6>
-                            </div>
-                        </div>
+  <div class="tendy">
+    <img src="/outfit5.jfif" alt="" />
+    <div class="form">
+      <div class="heart">
+        <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
+      </div>
+      <div class="lock-open">
+        <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
+      </div>
+      <div class="film">
+        <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
+      </div>
+    </div>
+    <div class="off">
+      <h6>50% off</h6>
+    </div>
+    <div class="ratings">
+      <div class="ratings-icon">
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star-half" color="orange" size="sm"></box-icon>
+      </div>
+      <p>Trouser</p>
+      <h6>4.9</h6>
+    </div>
+    <div class="pricing">
+      <p>Brown Pant Trouser</p>
+      <h5>$75:00</h5>
+      <h6>$150:00</h6>
+    </div>
+  </div>
 
+  <div class="tendy">
+    <img src="/outfit6.jfif" alt="" />
+    <div class="form">
+      <div class="heart">
+        <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
+      </div>
+      <div class="lock-open">
+        <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
+      </div>
+      <div class="film">
+        <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
+      </div>
+    </div>
+    <div class="off">
+      <h6>50% off</h6>
+    </div>
+    <div class="ratings">
+      <div class="ratings-icon">
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star-half" color="orange" size="sm"></box-icon>
+      </div>
+      <p>Shirt</p>
+      <h6>4.9</h6>
+    </div>
+    <div class="pricing">
+      <p>Checkers Shirt</p>
+      <h5>$75:00</h5>
+      <h6>$150:00</h6>
+    </div>
+  </div>
 
-                          <div class="tendy">
-                            <img src="/outfit5.jfif" alt=""></img>
-                            <div class="form">
-                                <div class="heart">
-                                <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="lock-open">
-                                <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="film">
-                                <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
-                                </div>
-                            </div>
-                            <div class="off">
-                                <h6>50% off</h6>
-                            </div>
-                            <div class="ratings">
-                            <div class="ratings-icon">
-                          
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star-half" color="orange" size="sm"></box-icon>
-            
-                            </div>
-                                <p>Coat</p>
-                                <h6>4.9</h6>
-                          </div>
-                        
+  <div class="tendy">
+    <img src="/outfit7.jfif" alt="" />
+    <div class="form">
+      <div class="heart">
+        <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
+      </div>
+      <div class="lock-open">
+        <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
+      </div>
+      <div class="film">
+        <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
+      </div>
+    </div>
+    <div class="off">
+      <h6>50% off</h6>
+    </div>
+    <div class="ratings">
+      <div class="ratings-icon">
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star" color="orange" size="sm"></box-icon>
+        <box-icon type="solid" name="star-half" color="orange" size="sm"></box-icon>
+      </div>
+      <p>Complete outfits</p>
+      <h6>4.9</h6>
+    </div>
+    <div class="pricing">
+      <p>Black shirt and Short</p>
+      <h5>$75:00</h5>
+      <h6>$150:00</h6>
+    </div>
+  </div>
+</div>
 
-                            <div class="pricing">
-                                <p>Tendy brown coat</p>
-                                <h5>$75:00</h5>
-                                <h6>$150:00</h6>
-                            </div>
-                        </div>
-
-
-                          <div class="tendy">
-                            <img src="/outfit6.jfif" alt=""></img>
-                            <div class="form">
-                                <div class="heart">
-                                <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="lock-open">
-                                <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="film">
-                                <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
-                                </div>
-                            </div>
-                            <div class="off">
-                                <h6>50% off</h6>
-                            </div>
-                            <div class="ratings">
-                            <div class="ratings-icon">
-                          
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star-half" color="orange" size="sm"></box-icon>
-            
-                            </div>
-                                <p>Coat</p>
-                                <h6>4.9</h6>
-                          </div>
-                        
-
-                            <div class="pricing">
-                                <p>Tendy brown coat</p>
-                                <h5>$75:00</h5>
-                                <h6>$150:00</h6>
-                            </div>
-                        </div>
-
-                        <div class="tendy">
-                            <img src="/outfit7.jfif" alt=""></img>
-                            <div class="form">
-                                <div class="heart">
-                                <box-icon class="tendy-icon-1" type="solid" name="heart-circle" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="lock-open">
-                                <box-icon class="tendy-icon-1" type="solid" name="lock-open" color="black" size="sm"></box-icon>
-                                </div>
-                                 <div class="film">
-                                <box-icon class="tendy-icon-1" type="solid" name="film" color="black" size="sm"></box-icon>
-                                </div>
-                            </div>
-                            <div class="off">
-                                <h6>50% off</h6>
-                            </div>
-                            <div class="ratings">
-                            <div class="ratings-icon">
-                          
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star" color="orange" size="sm"></box-icon>
-                                <box-icon  type="solid" name="star-half" color="orange" size="sm"></box-icon>
-            
-                            </div>
-                                <p>Coat</p>
-                                <h6>4.9</h6>
-                          </div>
-                        
-
-                            <div class="pricing">
-                                <p>Tendy brown coat</p>
-                                <h5>$75:00</h5>
-                                <h6>$150:00</h6>
-                            </div>
-                        </div>
-
-                         </div>
-               
         
         
         </section>

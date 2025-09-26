@@ -9,8 +9,8 @@ export default function Contact() {
             
                     <h1>Contact Us</h1>
                     <div class="link">
-                    <a href="" class="link-1">Home</a>
-                    <a href="" class="link-2"> > Contact Us</a>
+                    <a href="/Home" class="link-1">Home</a>
+                    <a href="/Contact" class="link-2"> > Contact Us</a>
                     </div>
                 </div>
             
@@ -44,8 +44,30 @@ export default function Contact() {
                     </div>
                     </div>
 
+
+
+
+
+                    
+
+            
+
     
      
         </section>
+
+
+
+
+
+
     );
 }
+
+
+
+
+
+
+
+

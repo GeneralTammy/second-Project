@@ -10,8 +10,8 @@ export default function About() {
                 <div class="business">
                     <h1>About</h1>
                     <div class="link">
-                    <a href="" class="link-1">Home</a>
-                    <a href="" class="link-2"> > About us</a>
+                    <a href="/Home" class="link-1">Home</a>
+                    <a href="/About" class="link-2"> > About us</a>
                     </div>
                 </div>
                 </div>
@@ -22,19 +22,21 @@ export default function About() {
         <div class="hero">
             <div class="hero-image">
                 <img src="/aa7.jfif" alt=""></img> 
-                </div>
+            </div>
                 
-                <div class="about">
+            <div class="about">
                 <div class="client">
                     <img  src="/face 1.jfif" alt="" class="image-1"></img>
                     <img  src="/face 2.jfif" alt="" class="image-1"></img>
                     <img  src="/face 3.jfif" alt="" class="image-1"></img>
                     <p>mostly happy client!</p>
                 </div>
-        <div class="sub-about">
-            <h6>About us</h6>
-            <h2>More than just<br/> a car wash</h2>
-            <p>E-learning adventures is commited to transforming the traditional learning lansacape. With a blend of engaging content , interactive exercises and cutting edges technology , we ensure every learner finds their path to success</p>
+
+
+                <div class="sub-about">
+                    <h6>About us</h6>
+                   <h2>More than just<br/> a car wash</h2>
+                   <p>E-learning adventures is commited to transforming the traditional learning lansacape. With a blend of engaging content , interactive exercises and cutting edges technology , we ensure every learner finds their path to success</p>
             <button class="btn">Learn More</button>
         </div>
         </div>
@@ -92,7 +94,7 @@ export default function About() {
                             <box-icon type="solid" name="customize" color="black" size="lg"></box-icon>
                             </div> 
                             <div class="text">
-                            <h5>Our Vision</h5>
+                            <h5>Our Mission</h5>
                             <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl,</p>
                             <a href="">Read more</a>
                             </div>
@@ -103,7 +105,7 @@ export default function About() {
                             <box-icon type="solid" name="customize" color="black" size="lg"></box-icon> 
                             </div>
                             <div class="text">
-                            <h5>Our Vision</h5>
+                            <h5>Award Winning</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl vel ultricies lacinia, nunc nisl aliquam nisl,</p>
                             <a href="">Read more</a>
                             </div>
