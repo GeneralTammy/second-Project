@@ -1,6 +1,8 @@
 import React from "react";
 import 'boxicons';
 export default function Login() {
+
+    
     return (
         <section class="services">
 
@@ -27,13 +29,13 @@ export default function Login() {
                     <form class="login-form">
                         <div class="form-group">
                             <label>Email Address</label>
-                            <input type="email" id="email" class="form-control" placeholder="Enter Your Email" required></input>
+                            <input type="email" id="email" class="form-control" placeholder="Enter Your Email" required/>
                         </div>
 
                         <div class="form-group">
                             <label class="pass">Password</label>
-                            <input type="password" id="password" class="form-control" placeholder="Enter Your Password" required></input>
-                            <a href="/Home"><button class="login-btn">sign in</button></a>
+                            <input type="password" id="password" class="form-control" placeholder="Enter Your Password" required/>
+                            <button class="login-btn">sign in</button>
                         </div>
                         <p>don't have an account<a href="./Signup"> Sign up</a></p>
 
@@ -46,7 +48,14 @@ export default function Login() {
             </div>
      </section>
     );
+
+
+    
 }
+
+
+
+
 
 
 

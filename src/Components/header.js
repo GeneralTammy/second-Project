@@ -1,77 +1,114 @@
-import React from 'react';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCartShopping,
+  faUser,
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <header style={styles.header}>
-      <img style={styles.logo} src="/logo192.png" alt="Logo" />
-      <nav>
-        <ul style={styles.navList}>
-          <li><a href="/Home" style={styles.navItem}>Home</a></li>
-          <li><a href="/About" style={styles.navItem}>About</a></li>
-          <li><a href="/Services" style={styles.navItem}>Service</a></li>
-          <li><a href="/Contact" style={styles.navItem}>Contact</a></li>
-        </ul>
-      </nav>
-      <box-icon style={styles.cartItem0} type="solid" name="cart" color="black" size="m"></box-icon>
-      <box-icon style={styles.cartItem2} type="solid" name="user" color="black" size="m"></box-icon>
-    </header>
+    <>
+      <style>
+        {`
+          .nav-item:hover {
+            color: #fcfdfbff !important;
+            transform: scale(1.1);
+          }
+          .icon:hover {
+            color: #fcfdfbff !important;
+            transform: scale(1.1);
+          }
+        `}
+      </style>
+      <header style={styles.header}>
+        <img style={styles.logo} src="/logo192.png" alt="Logo" />
+
+        <nav>
+          <ul style={styles.navList}>
+            <li>
+              <a href="Home" style={styles.navItem} className="nav-item">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="About" style={styles.navItem} className="nav-item">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/Service" style={styles.navItem} className="nav-item">
+                Service
+              </a>
+            </li>
+            <li>
+              <a href="Contact" style={styles.navItem} className="nav-item">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div style={styles.icons}>
+          <FontAwesomeIcon
+            icon={faCartShopping}
+            style={styles.icon}
+            className="icon"
+          />
+          <FontAwesomeIcon icon={faUser} style={styles.icon} className="icon" />
+          <FontAwesomeIcon icon={faBars} style={styles.icon} className="icon" />
+        </div>
+      </header>
+    </>
   );
 };
 
 const styles = {
   header: {
-    display: 'flex',
+    display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "10px 20px",
-    backgroundColor: "white",
+    padding: "0.6rem 1.25rem",
+    backgroundColor: "rgb(169, 240, 98)",
     color: "black",
     position: "fixed",
-    zIndex: 10,  
-    position: "fixed",
+    zIndex: 10,
     top: 0,
-    left: 0,
+    right: 0,
     width: "100%",
-    boxSizing: "borderBox"
+    boxSizing: "border-box",
+  },
+  logo: {
+    width: "3rem",
+    cursor: "pointer",
+    transition: "transform .2s ease",
+    marginLeft: "5em",
   },
   navList: {
     display: "flex",
     listStyle: "none",
-    padding: "10px 150px",
     margin: 0,
-    gap: "20px",
+    padding: 0,
+    gap: "2rem",
   },
   navItem: {
     textDecoration: "none",
     color: "black",
     fontWeight: 600,
     fontSize: "16px",
-    paddingLeft: "599%"
+    cursor: "pointer",
+    transition: "color .2s ease, transform .2s ease",
   },
-  logo: {
-    width: "50px",
-    padding: "10px 70px"
+  icons: {
+    display: "flex",
+    gap: "1.5rem",
+    marginRight: "3rem",
   },
-  cartItem0: {
-    marginRight: "20px",
-    paddingLeft: "40%"
+  icon: {
+    cursor: "pointer",
+    fontSize: "1.4rem",
+    transition: "transform .2s ease",
   },
-  cartItem2: {
-    marginRight: "100px"
-  }
 };
-
-
-
-const style = document.createElement('style');
-style.textContent = `
-  a:hover {
-    background-color: rgba(33, 55, 11, 0.1);
-    color: rgb(139, 210, 78);
-  }
-`;
-document.head.appendChild(style);
-
-
 
 export default Header;
